@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(5, 49, 82, 0.774);
+}
+
+#conteneur {
+    min-height: 100vh;
+}
+
+#titres {
+    margin: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#score {
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    width: 100px;
+    margin: auto;
+    background: rgba(112, 211, 120, 0.445);
+    font-size: 5em;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    min-width: 700px;
+    max-width: 700px;
+}
+
+img {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+}
+
+#btn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: green;
+}
+
+
+.zouazo {
+    width: 70px;
+    height: 100px;
+    position: relative;
+    margin: 30px;
+    padding-left: 10px;
+    margin-top: -95px;
+}
+
+.div {
+    margin: 30px;
+}
+
+.t {
+    margin: 20px;
+    margin-top: 120px;
+    padding: 0px;
+}
+
+.a {
+    margin: 0;
+    padding: 150px  ;
+}
+
+.divligne {
+    margin: 0;
+    padding: 0;
+    max-height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    justify-content: space-betweens;
+    margin-bottom: 50px;
+}
+
+#divrow {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#vide {
+    min-height: 300px;
+}
